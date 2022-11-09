@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "npm run build:src && npm run build:dist",
-    "build:src": "typechain --target=ethers-v5 src/*",
+    "build:src": "typechain --target=ethers-v5 abis/* --out-dir src",
     "build:dist": "tsc"
   },
   "devDependencies": {
