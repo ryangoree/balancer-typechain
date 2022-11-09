@@ -1,0 +1,15 @@
+{
+  "name": "balancer-typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "typechain --target=ethers-v5 src/*"
+  },
+  "dependencies": {
+    "@typechain/ethers-v5": "^10.1.1",
+    "ethers": "^5.7.2",
+    "typechain": "^8.1.1",
+    "typescript": "^4.8.4"
+  }
+}
